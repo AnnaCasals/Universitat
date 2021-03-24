@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PRGString()
+comment0.text=No\ hi\ ha\ objectes\ d'aquesta\ classe.
+comment1.params=s
+comment1.target=int\ countA(java.lang.String)
+comment1.text=\r\n\ Torna\ el\ n\u00FAmero\ de\ 'a's\ en\ la\ String\ donada.\r\n\ @param\ s\ String\ on\ es\ volen\ comptar\ les\ 'a's.\r\n\ @return\ int.\r\n
+comment2.params=s\ pos
+comment2.target=int\ countA(java.lang.String,\ int)
+comment2.text=\r\n\ Torna\ el\ n\u00FAmero\ de\ 'a's\ en\ la\ String\ donada\ a\ partir\r\n\ d'una\ determinada\ posici\u00F3.\r\n\ @param\ s\ String\ on\ es\ volen\ comptar\ les\ 'a's.\r\n\ @param\ pos\ posici\u00F3\ de\ s\ on\ comenza\ la\ substring.\r\n\ @return\ int.\r\n\ PRECONDICIO\:\ pos\ >\=\ 0\r\n
+comment3.params=s
+comment3.target=int\ countA2(java.lang.String)
+comment3.text=\r\n\ Torna\ el\ n\u00FAmero\ de\ 'a's\ en\ la\ String\ donada.\r\n\ @param\ s\ String\ on\ es\ volen\ comptar\ les\ 'a's.\r\n\ @return\ int.\r\n
+comment4.params=a\ b
+comment4.target=boolean\ isPrefix(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Determina\ si\ a\ \u00E9s\ o\ no\ prefixe\ de\ b.\r\n\ --\ COMPLETAR\ --\r\n
+comment5.params=a\ b
+comment5.target=boolean\ isSubstring(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Determina\ si\ a\ \u00E9s\ o\ no\ subcadena\ de\ b.\r\n\ --\ COMPLETAR\ --\r\n
+numComments=6

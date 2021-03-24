@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=listF\ year\ place
+comment1.target=void\ reportedSortFiles(java.io.File[],\ int,\ java.io.File)
+comment1.text=\ Classifica\ les\ dades\ llegides\ d'un\ array\ de\ fitxers\ de\ text.\ \r\n\ \ Les\ dades\ corresponen\ a\ dates\ d'un\ determinat\ any.\ Es\ filtren\ \r\n\ \ les\ dades\ amb\ algun\ defecte\ de\ format,\ emitint\ un\ informe\ d'errors.\ \r\n\ \ Precondicio\:\ El\ format\ de\ linia\ recognoscible\ es\r\n\ \ \ \ \ \ \ \ dia\ mes\ quantitat\r\n\ \ on\ dia\ i\ mes\ han\ de\ ser\ enters\ correspondents\ a\ una\ data\ valida\ \r\n\ \ de\ l'any,\ i\ quantitat\ ha\ de\ ser\ un\ enter\ >\ 0.\r\n\ \ En\ un\ fitxer\ "result.out"\ s'escriuen\ en\ ordre\ cronologic\ les\ quantitats\r\n\ \ acumulades\ per\ a\ cada\ data.\ En\ un\ fitxer\ "result.log"\ s'escriuen\ les\ \r\n\ \ linies\ amb\ dades\ defectuoses.\r\n\ \ Si\ hi\ ha\ problemes\ d'acces\ a\ algun\ fitxer,\ el\ proces\ no\ es\ completa.\r\n\ \ \ \ \ \r\n\ \ @param\ listF\ File[]\ array\ dels\ fitxers\ font\ de\ les\ dades\r\n\ \ @param\ year\ int\ any\ al\ que\ corresponen\ les\ dades\r\n\ \ @param\ place\ File\ lloc\ del\ sistema\ on\ es\ guarden\ els\ fitxers\ .out\ i\ .log\r\n
+numComments=2

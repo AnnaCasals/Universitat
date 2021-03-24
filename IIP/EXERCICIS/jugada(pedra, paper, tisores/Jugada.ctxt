@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Jugada()
+comment0.text=\r\n\ Construye\ una\ jugada\ con\ una\ elecci\u00F3n\ aleatoria\ entre\ los\ tres\ valores\ \r\n\ posibles\:\ PIEDRA,\ PAPEL\ o\ TIJERA.\r\n
+comment1.params=e
+comment1.target=Jugada(java.lang.String)
+comment1.text=\r\n\ Construye\ una\ jugada\ a\ partir\ del\ String\ e\ que\ se\ le\ pasa\ como\ par\u00E1metro.\r\n\ Si\ el\ valor\ del\ par\u00E1metro\ no\ es\ ni\ PIEDRA,\ ni\ PAPEL\ ni\ TIJERA\ se\ asume\ \r\n\ que\ es\ PIEDRA.\r\n\ @param\ e\ String\r\n
+comment2.params=
+comment2.target=int\ getEleccion()
+comment2.text=\r\n\ Devuelve\ el\ valor\ seleccionado\ en\ la\ jugada.\r\n\ @return\ int\r\n
+comment3.params=
+comment3.target=java.lang.String\ getEleccionSt()
+comment3.text=\ \ \r\n\ Devuelve\ la\ elecci\u00F3n\ de\ la\ jugada\ como\ un\ String.\r\n\ @return\ String\r\n
+comment4.params=otra
+comment4.target=int\ ganaA(Jugada)
+comment4.text=\r\n\ Compara\ si\ una\ jugada\ (this)\ gana\ a\ otra\ jugada.\ \r\n\ En\ concreto,\ devuelve\:\ \r\n\ \ \ \ 0\ \ si\ una\ (this)\ y\ otra\ empatan;\ \r\n\ \ \ \ -1\ si\ una\ (this)\ gana\ a\ la\ otra;\ \r\n\ \ \ \ +1\ si\ una\ (this)\ pierde\ con\ la\ otra.\r\n\ @param\ otra\ Jugada\r\n\ @return\ int\ \r\n
+numComments=5

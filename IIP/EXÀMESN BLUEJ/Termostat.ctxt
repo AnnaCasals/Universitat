@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=m\ n\ tC\ tAct
+comment0.target=Termostat(int,\ java.lang.String,\ int,\ double)
+comment1.params=
+comment1.target=Termostat()
+comment2.params=x\ y
+comment2.target=double\ generarAleatori(double,\ double)
+comment3.params=
+comment3.target=java.lang.String\ getNom()
+comment4.params=
+comment4.target=int\ getMode()
+comment5.params=nou
+comment5.target=void\ setMode(int)
+comment6.params=altre
+comment6.target=boolean\ equals(java.lang.Object)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=int\ diferenciaAmbIdeal()
+numComments=9

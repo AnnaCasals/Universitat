@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+main () {
+  int i;
+  int q;
+  printf("Introdueix un valor: ");
+  scanf("%d", &i);
+  q = i*i;
+  printf("El quadrat de %d és %d\n", i, q);
+}

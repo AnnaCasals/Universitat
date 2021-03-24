@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RSquare()
+comment0.text=No\ hi\ ha\ objectes\ d'aquesta\ classe.
+comment1.params=gd\ cX\ cY\ l
+comment1.target=void\ drawCentSquare(graph2D.Graph2D,\ double,\ double,\ double)
+comment1.text=\ Dibuixa\ en\ la\ finestra\ gd\ un\ quadrat\ solid\ de\ color\ gris\ i\ enmarcat\r\n\ \ en\ blau,\ amb\ centre\ en\ (cX,\ cY)\ i\ costat\ l.\r\n
+comment2.params=
+comment2.target=void\ delay()
+comment2.text=Suspen\ temporalment\ l'execucio\ durant\ 50\ ms.
+comment3.params=gd\ n\ cX\ cY\ l
+comment3.target=void\ rSquareA(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment3.text=\ Dibuixa\ en\ la\ finestra\ gd\ una\ RSquare-A\ d'ordre\ n\ >\=\ 1,\ \r\n\ \ amb\ centre\ en\ (cX,\ cY)\ i\ quadrat\ central\ de\ costat\ l.\r\n
+comment4.params=n
+comment4.target=void\ rSquareA(int)
+comment4.text=\ Dibuixa\ una\ RSquare-A\ d'ordre\ n\ >\=\ 1,\ \r\n\ \ longitud\ 1\ i\ centrada\ en\ (0,\ 0).\ \r\n
+comment5.params=gd\ n\ cX\ cY\ l
+comment5.target=void\ rSquareB(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment5.text=\ Dibuixa\ en\ la\ finestra\ gd\ una\ RSquare-B\ d'ordre\ n\ >\=\ 1,\ \r\n\ \ amb\ centre\ en\ (cX,\ cY)\ i\ quadrat\ central\ de\ costat\ l.\r\n
+comment6.params=n
+comment6.target=void\ rSquareB(int)
+comment6.text=\ Dibuixa\ una\ RSquare-B\ d'ordre\ n\ >\=\ 1,\ \r\n\ \ longitud\ 1\ i\ centrada\ en\ (0,\ 0).\r\n
+numComments=7

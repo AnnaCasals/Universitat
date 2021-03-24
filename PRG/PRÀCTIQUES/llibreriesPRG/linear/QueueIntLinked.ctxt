@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QueueIntLinked()
+comment0.text=\r\n\ Crea\ una\ cua\ buida.\r\n
+comment1.params=x
+comment1.target=void\ add(int)
+comment1.text=\r\n\ Encua\ un\ nou\ element\ en\ la\ cua.\r\n\ @param\ x,\ int\ a\ afegir\ en\ la\ cua\ actual.\r\n
+comment2.params=
+comment2.target=int\ remove()
+comment2.text=\r\n\ Torna\ i\ desencua\ el\ first\ de\ la\ cua.\r\n\ @throws\ NoSuchElementException\ si\ la\ cua\ est\u00E0\ buida.\r\n\ @return\ int,\ dada\ de\ l'element\ first\ desencuat\ de\ la\ cua\ actual.\r\n
+comment3.params=
+comment3.target=int\ first()
+comment3.text=\r\n\ Torna\ la\ data\ de\ l'element\ first\ de\ la\ cua\ actual.\r\n\ @throws\ NoSuchElementException\ si\ la\ cua\ est\u00E1\ buida.\r\n\ @return\ int,\ dada\ de\ l'element\ first\ de\ la\ cua\ actual.\r\n
+comment4.params=
+comment4.target=boolean\ empty()
+comment4.text=\r\n\ Comprova\ si\ la\ cua\ actual\ est\u00E0\ o\ no\ buida.\r\n\ @return\ boolean,\ true\ si\ la\ cua\ est\u00E0\ buida\ i\ false\ en\ cas\ contrari.\r\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\r\n\ Torna\ el\ n\u00FAmero\ d'elements\ de\ la\ cua\ actual.\r\n\ @return\ int,\ n\u00FAmero\ d'elements\ de\ la\ cua\ actual.\r\n
+comment6.params=o
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\r\n\ Comprova\ si\ la\ cua\ actual\ \u00E9s\ igual\ o\ no\ a\ una\ cua\ donada.\r\n\ @param\ o\ Object\ que\ representa\ la\ cua\ a\ comparar.\r\n\ @return\ boolean,\ true\ si\ s\u00F3n\ iguals\ i\ false\ en\ cas\ contrari.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Torna\ una\ String\ formada\ pels\ valors\ de\ la\ cua\ actual.\r\n\ @return\ String\ amb\ les\ dades\ de\ la\ cua.\r\n
+numComments=8

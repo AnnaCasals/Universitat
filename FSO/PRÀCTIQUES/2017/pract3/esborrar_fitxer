@@ -1,0 +1,14 @@
+#!/bin/bash
+# esborrar_fitxer
+if test -f $1
+then
+rm -f $1
+echo "El fitxer s'ha esborrat correctament"
+else
+if test -s $1
+then
+echo "El fitxer és un directori i no es pot esborrar"
+else
+echo "El fitxer no existeix"
+fi
+fi

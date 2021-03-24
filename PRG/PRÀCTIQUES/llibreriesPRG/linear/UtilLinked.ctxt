@@ -1,0 +1,59 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UtilLinked()
+comment0.text=No\ hi\ ha\ objectes\ d'aquesta\ classe.
+comment1.params=sec\ maxim
+comment1.target=void\ saturar(NodeInt,\ int)
+comment1.text=\r\n\ Satura\ les\ dades\ d'una\ seq\u00FC\u00E8ncia\ donada\ a\ un\ valor\ m\u00E0xim.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ maxim\ int\ a\ saturar.\ \r\n
+comment10.params=sec\ d
+comment10.target=NodeInt\ inserirOrdRec(NodeInt,\ int)
+comment10.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia\ tal\ que\ les\ seues\ dades\ estan\ ordenades\ \r\n\ de\ menor\ a\ major,\ insereix\ recursivament\ la\ dada\ d\ mantenint\ \r\n\ l'ordenaci\u00F3.\ Es\ distingeixen\ els\ dos\ casos\ seg\u00FCents\:\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ \=\ 0\ nodes,\ sec\=\=null.\ S'insereix\ en\ cap\ de\ sec.\ \r\n\ \ \ La\ dada\ d\ \u00E9s\ el\ primer\ que\ s'insereix\ en\ sec.\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ >\ 0\ nodes.\ Si\ sec.data>\=d,\ s'insereix\ en\ cap\ \r\n\ \ \ de\ sec,\ sino\ el\ problema\ es\ redueix\ a\ inserir\ ordenadament\ en\ \r\n\ \ \ la\ subseq\u00FC\u00E8ncia\ sec.next.\ \r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ inserir.\ \r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment11.params=sec\ d
+comment11.target=NodeInt\ esborrar(NodeInt,\ int)
+comment11.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia\ enlla\u00E7ada,\ esborra,\ si\ existeix,\ la\ primera\ \r\n\ ocurrencia\ d'una\ dada\ d.\ Si\ aquest\ element\ no\ apareix,\ no\ es\ fa\ res.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ esborrar.\ \r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment12.params=sec\ d
+comment12.target=NodeInt\ esborrarRec(NodeInt,\ int)
+comment12.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia\ enlla\u00E7ada,\ esborra\ recursivament,\ \r\n\ si\ existeix,\ la\ primera\ ocurrencia\ d'una\ dada\ d.\ \r\n\ Si\ aquest\ element\ no\ apareix,\ no\ es\ fa\ res.\r\n\ Es\ distingeixen\ els\ dos\ casos\ seg\u00FCents\:\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ \=\ 0\ nodes,\ sec\=\=null.\ La\ dada\ d\ no\ est\u00E0\ \ \r\n\ \ \ en\ sec,\ no\ es\ fa\ cap\ esborrament.\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ >\ 0\ nodes.\ Si\ es\ troba\ d\ en\ cap\ (primera\ \r\n\ \ \ ocurr\u00E8ncia\ de\ d\ en\ la\ seq\u00FC\u00E8ncia),\ s'esborra\ el\ primer\ node\r\n\ \ \ de\ sec;\ sino\ el\ problema\ es\ redueix\ a\ esborrar\ la\ primera\ \r\n\ \ \ ocurr\u00E8ncia\ de\ d\ en\ la\ subseq\u00FC\u00E8ncia\ sec.next.\ \ \r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ esborrar.\ \r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment13.params=sec\ umbral
+comment13.target=NodeInt\ esborrarMenors(NodeInt,\ int)
+comment13.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia\ enlla\u00E7ada,\ esborra\ els\ elements\ menors\ \r\n\ que\ un\ umbral\ donat.\ \r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ umbral\ int\ a\ comparar.\ \r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment14.params=sec\ umbral
+comment14.target=NodeInt\ esborrarMenorsRec(NodeInt,\ int)
+comment14.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia\ enlla\u00E7ada,\ esborra\ recursivament\ \r\n\ els\ elements\ menors\ que\ un\ umbral\ donat.\ \r\n\ Es\ distingeixen\ els\ dos\ casos\ seg\u00FCents\:\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ \=\ 0\ nodes,\ sec\=\=null.\ No\ hi\ ha\ dades\ \r\n\ \ \ en\ sec,\ no\ es\ fa\ cap\ esborrament.\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ >\ 0\ nodes.\ S'esborren\ recursivament\ \r\n\ \ \ els\ elements\ menors\ que\ umbral\ en\ la\ subseq\u00FC\u00E8ncia\ \r\n\ \ \ sec.next.\ Si\ l'element\ en\ el\ cap\ es\ menor\ que\ umbral,\ \r\n\ \ \ s'esborra;\ sino\ dit\ element\ s'enlla\u00E7a\ amb\ la\ subseq\u00FC\u00E8ncia\ \r\n\ \ \ resultat\ de\ l'esborrament.\ \r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ umbral\ int\ a\ comparar.\ \r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment15.params=sec
+comment15.target=NodeInt\ moureADreta(NodeInt)
+comment15.text=\r\n\ Despla\u00E7a\ tots\ els\ elements\ d'una\ seq\u00FC\u00E8ncia\ donada,\ \r\n\ una\ posici\u00F3\ cap\ a\ la\ dreta.\ \r\n\ L'\u00FAltim\ element\ passar\u00E0\ a\ ser\ el\ primer.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ a\ despla\u00E7ar.\r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ despla\u00E7ada.\r\n
+comment16.params=sec
+comment16.target=NodeInt\ moureAEsq(NodeInt)
+comment16.text=\r\n\ Despla\u00E7a\ tots\ els\ elements\ d'una\ seq\u00FC\u00E8ncia\ donada,\ \r\n\ una\ posici\u00F3\ cap\ a\ l'esquerra.\ \r\n\ El\ primer\ element\ passar\u00E0\ a\ ser\ l'\u00FAltim.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ a\ despla\u00E7ar.\r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ despla\u00E7ada.\r\n
+comment17.params=sec
+comment17.target=NodeInt\ invertir(NodeInt)
+comment17.text=\r\n\ Inverteix\ l'ordre\ dels\ elements\ d'una\ seq\u00FC\u00E8ncia\ donada\ \r\n\ (amb\ cost\ lineal).\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ a\ invertir.\r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ invertida.\r\n
+comment18.params=sec\ e
+comment18.target=NodeInt\ menorsQue(NodeInt,\ int)
+comment18.text=\ \r\n\ Torna\ una\ seq\u00FC\u00E8ncia\ enlla\u00E7ada\ amb\ els\ elements\ menors\ que\ e,\r\n\ i\ en\ el\ mateix\ ordre\ que\ apareixen\ en\ una\ seq\u00FC\u00E8ncia\ donada\ sec.\r\n\ El\ cost\ ser\u00E0\ lineal\ amb\ la\ longitud\ de\ sec.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ e\ int\ a\ comparar.\r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ enlla\u00E7ada\ amb\ els\ elements\ menors\ que\ e,\ \r\n\ \ \ \ \ \ \ \ \ en\ el\ mateix\ ordre\ que\ apareixen\ en\ la\ seq\u00FC\u00E8ncia\ original.\r\n
+comment2.params=sec
+comment2.target=int\ maxim(NodeInt)
+comment2.text=\r\n\ Torna\ el\ m\u00E0xim\ d'una\ seq\u00FC\u00E8ncia\ donada\ amb,\ al\ menys,\ un\ node.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ original.\r\n\ @return\ int\ valor\ m\u00E0xim\ de\ la\ seq\u00FC\u00E8ncia.\r\n
+comment3.params=sec
+comment3.target=int\ talla(NodeInt)
+comment3.text=\ Torna\ el\ nombre\ d'elements\ de\ la\ seq\u00FC\u00E8ncia\ sec.\r\n\ \ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ \ @return\ int\ nombre\ d'elements\ de\ sec.\r\n
+comment4.params=sec
+comment4.target=int[]\ toArray(NodeInt)
+comment4.text=\ Torna\ en\ un\ array\ del\ tamany\ just\ els\ elements\ de\ la\ seq\u00FC\u00E8ncia\ sec.\r\n\ \ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ \ @return\ int[]\ array\ amb\ els\ elements\ de\ sec.\r\n
+comment5.params=a
+comment5.target=NodeInt\ toSeq(int[])
+comment5.text=\ Torna\ en\ una\ seq\u00FC\u00E8ncia\ els\ elements\ d'un\ array\ a.\r\n\ \ @param\ a\ array\ d'enters\ seq\u00FC\u00E8ncia\ origen.\r\n\ \ @return\ NodeInt\ seq\u00FC\u00E8ncia\ amb\ els\ elements\ de\ l'array\ a.\r\n
+comment6.params=sec\ d
+comment6.target=int\ buscar(NodeInt,\ int)
+comment6.text=\r\n\ Torna\ la\ posici\u00F3\ de\ la\ primera\ ocurr\u00E8ncia\ d'un\ valor\ d\ en\ \r\n\ una\ seq\u00FC\u00E8ncia\ donada\ sec.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ buscar.\ \r\n\ @return\ int\ posici\u00F3\ que\ ocupa\ d\ en\ la\ seq\u00FC\u00E8ncia\ o\ -1\ si\ no\ est\u00E0.\r\n
+comment7.params=sec\ d\ i
+comment7.target=NodeInt\ inserir(NodeInt,\ int,\ int)
+comment7.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia,\ insereix\ la\ dada\ d\ en\ la\ posici\u00F3\ i,\ \r\n\ sempre\ que\ 0<\=i<\=n.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ inserir.\ \r\n\ @param\ i\ int\ posici\u00F3\ on\ inserir\ 0<\=i<\=n.\r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment8.params=sec\ d\ i
+comment8.target=NodeInt\ inserirRec(NodeInt,\ int,\ int)
+comment8.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia,\ insereix\ recursivament\ la\ dada\ d\ en\ la\ \r\n\ posici\u00F3\ i,\ sempre\ que\ 0<\=i<\=n.\r\n\ Es\ distingeixen\ els\ dos\ casos\ seg\u00FCents\:\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ \=\ 0\ nodes,\ sec\=\=null.\ S'insereix\ en\ cap\ de\ sec,\ \r\n\ \ \ nom\u00E9s\ si\ i\=\=0.\r\n\ -\ Seq\u00FC\u00E8ncia\ amb\ n\ >\ 0\ nodes.\ Si\ i\=\=0,\ s'insereix\ en\ cap\ de\ sec,\ \r\n\ \ \ sino\ el\ problema\ es\ redueix\ a\ inserir\ en\ la\ posici\u00F3\ i-1\ de\ la\ \r\n\ \ \ subseq\u00FC\u00E8ncia\ sec.next.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ inserir.\ \r\n\ @param\ i\ int\ posici\u00F3\ on\ inserir\ 0<\=i<\=n.\r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+comment9.params=sec\ d
+comment9.target=NodeInt\ inserirOrd(NodeInt,\ int)
+comment9.text=\r\n\ Donada\ una\ seq\u00FC\u00E8ncia\ tal\ que\ les\ seues\ dades\ estan\ ordenades\ \r\n\ de\ menor\ a\ major,\ insereix\ la\ dada\ d\ mantenint\ l'ordenaci\u00F3.\r\n\ @param\ sec\ NodeInt\ seq\u00FC\u00E8ncia\ origen.\r\n\ @param\ d\ int\ a\ inserir.\ \r\n\ @return\ NodeInt\ seq\u00FC\u00E8ncia\ resultat.\r\n
+numComments=19

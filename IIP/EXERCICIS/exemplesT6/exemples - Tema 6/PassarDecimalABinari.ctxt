@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=decimal
+comment1.target=java.lang.String\ dec2Bin(int)
+comment1.text=Transforma\ un\ nombre\ decimal\ a\ binari,\ amb\ decimal\ >\ 0
+numComments=2

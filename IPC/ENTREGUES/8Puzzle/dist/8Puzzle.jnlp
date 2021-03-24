@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="8Puzzle.jnlp">
+  <information>
+    <title>8Puzzle</title>
+    <vendor>Anna</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="8Puzzle.jar" size="17055" download="eager" />
+    <jar href="lib\Utils8puzzle.jar" size="1505" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="8Puzzle" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg8puzzle.Main"  name="8Puzzle" />
+  <update check="always"/>
+</jnlp>

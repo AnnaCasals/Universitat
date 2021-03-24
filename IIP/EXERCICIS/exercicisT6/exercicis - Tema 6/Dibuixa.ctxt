@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=base\ altura
+comment0.target=void\ rectangle(int,\ int)
+comment0.text=\ Mostra\ per\ pantalla\ un\ rectangle\ de\ \r\n\ \ base\ i\ altura\ donades\ utilitzant\ *\r\n
+comment1.params=base
+comment1.target=void\ triangleRec(int)
+comment1.text=\ Mostra\ per\ pantalla\ un\ triangle\ rectangle\ de\ \r\n\ \ base\ donada\ utilitzant\ *\r\n
+comment2.params=n
+comment2.target=void\ zeta(int)
+comment2.text=\ Mostra\ per\ pantalla,\ donat\ un\ enter\ n>\=0,\ una\ zeta\ \r\n\ \ utilitzant\ el\ car\u00E0cter\ 'Z'\ en\ n\ l\u00EDnies\r\n
+numComments=3

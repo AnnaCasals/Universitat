@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=e\ o
+comment0.target=Accio(java.lang.String,\ double)
+comment1.params=e\ o\ min\ max
+comment1.target=Accio(java.lang.String,\ double,\ double,\ double)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getEmpresa()
+comment3.params=
+comment3.target=double\ getObertura()
+comment4.params=
+comment4.target=double\ getMinim()
+comment5.params=
+comment5.target=double\ getMaxim()
+comment6.params=
+comment6.target=double\ getActual()
+comment7.params=a
+comment7.target=void\ setActual(double)
+comment8.params=
+comment8.target=boolean\ capAMunt()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=11

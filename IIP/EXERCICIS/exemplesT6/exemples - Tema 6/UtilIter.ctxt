@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=a\ n
+comment0.target=int\ producteAperN(int,\ int)
+comment0.text=\ Torna\ el\ producte\ de\ a\ per\ n,\r\n\ \ sense\ usar\ l'operador\ *,\ basant-nos\ en\ sumes.\r\n\ \ Precondici\u00F3\:\ a\ >\=\ 0,\ n\ >\=\ 0\r\n
+comment1.params=n
+comment1.target=int\ sumaXifres(int)
+comment1.text=\ Torna\ la\ suma\ de\ les\ xifres\ d'un\ n\u00FAmero\ n\ donat.\ \r\n\ \ Precondici\u00F3\:\ n\ >\=\ 0\r\n
+comment2.params=x\ y
+comment2.target=int\ mcd(int,\ int)
+comment2.text=\ Torna\ el\ m\u00E0xim\ com\u00FA\ divisor\ de\ x\ i\ y\r\n\ \ Precondici\u00F3\:\ x\ >\ 0,\ y\ >\ 0\ \r\n
+comment3.params=x\ y
+comment3.target=int\ mcd2(int,\ int)
+comment3.text=\ Torna\ el\ m\u00E0xim\ com\u00FA\ divisor\ de\ x\ i\ y\r\n\ \ Precondici\u00F3\:\ x\ >\ 0,\ y\ >\ 0\ \r\n\ \ Versi\u00F3\ millorada\r\n
+numComments=4

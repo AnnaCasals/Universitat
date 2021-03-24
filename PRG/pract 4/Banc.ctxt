@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Banc()
+comment0.text=\r\n\ Crea\ un\ banc\ sense\ comptes\ (pot\ tenir\ un\ m\u00C3\u00A0xim\ de\ MAX_COMPTES\ comptes).\r\n
+comment1.params=
+comment1.target=int\ getNumComptes()
+comment1.text=\r\n\ Torna\ el\ n\u00C3\u00BAmero\ actual\ de\ comptes.\r\n\ @return\ int,\ n\u00C3\u00BAmero\ actual\ de\ comptes.\r\n
+comment2.params=c
+comment2.target=void\ inserir(Compte)
+comment2.text=\r\n\ Permet\ inserir\ el\ Compte\ c\ al\ banc.\ Si\ el\ banc\ est\u00C3\u00A0\ complet,\r\n\ duplica\ el\ n\u00C3\u00BAmero\ de\ comptes\ que\ poden\ haver\ al\ banc.\r\n\ @param\ c\ Compte\ a\ inserir.\r\n
+comment3.params=
+comment3.target=void\ duplica()
+comment3.text=\r\n\ Duplica\ la\ grand\u00C3\u00A0ria\ de\ l'array\ comptes.\r\n
+comment4.params=n
+comment4.target=Compte\ getCompte(int)
+comment4.text=\r\n\ Torna\ el\ compte\ amb\ n\u00C3\u00BAmero\ de\ compte\ n.\r\n\ Si\ aquest\ comtpe\ no\ existeix,\ torna\ null.\r\n\ @param\ n\ int\ que\ indica\ el\ n\u00C3\u00BAmero\ de\ compte.\r\n\ @return\ Compte,\ el\ comtpe\ resultat.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Torna\ una\ String\ amb\ tota\ la\ informaci\u00C3\u00B3\ del\ banc.\r\n\ El\ format\ \u00C3\u00A9s\ un\ compte\ per\ l\u00C3\u00ADnia.\r\n\ @return\ String.\r\n
+numComments=6

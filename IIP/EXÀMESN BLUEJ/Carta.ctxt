@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=p\ v
+comment0.target=Carta(int,\ int)
+comment1.params=
+comment1.target=Carta()
+comment2.params=
+comment2.target=int\ getPal()
+comment3.params=
+comment3.target=int\ getValor()
+comment4.params=nou
+comment4.target=void\ setPal(int)
+comment5.params=nou
+comment5.target=void\ setValor(int)
+comment6.params=c
+comment6.target=boolean\ esMenor(Carta)
+comment7.params=
+comment7.target=Carta\ segPal()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

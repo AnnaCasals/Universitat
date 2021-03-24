@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=int\ menu(java.util.Scanner)
+comment0.text=\ Torna\ un\ enter,\ llegit\ des\ de\ l'entrada\ est\u00E0ndard\ (teclat),\ \r\n\ \ que\ indica\ el\ n\u00FAmero\ de\ l'opci\u00F3\ triada\ per\ l'usuari\ d'entre\ \r\n\ \ les\ tres\ possibles\ d'un\ men\u00FA\ mostrat\ en\ l'eixida\ est\u00E0ndard\ \r\n\ \ (pantalla).\r\n\ \ @param\ t\ Scanner,\ l'entrada\ est\u00E0ndard\ (teclat).\r\n\ \ @return\ int,\ el\ n\u00FAmero\ de\ l'opci\u00F3\ del\ men\u00FA\ triada.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

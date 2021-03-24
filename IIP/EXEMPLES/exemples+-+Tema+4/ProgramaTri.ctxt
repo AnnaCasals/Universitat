@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=p1\ p2\ p3
+comment1.target=double\ perimetre(Punt,\ Punt,\ Punt)
+numComments=2

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=void\ u(int)
+comment0.text=\r\n\ U-----U\r\n\ U-----U\r\n\ U-----U\r\n\ U-----U\r\n\ UUUUUUU\r\n
+comment1.params=n
+comment1.target=void\ v(int)
+comment1.text=\ \r\n\ V--------V\r\n\ -V------V-\r\n\ --V----V--\r\n\ ---V--V---\r\n\ ----VV----\r\n
+comment2.params=n
+comment2.target=void\ M(int)
+comment2.text=\r\n\ M------M\r\n\ MM----MM\r\n\ M-M--M-M\r\n\ M--MM--M\r\n\ M------M\r\n\r\n
+comment3.params=n
+comment3.target=void\ Z(int)
+comment3.text=\r\n\ ZZZZZ\r\n\ \ \ \ Z\r\n\ \ \ Z\r\n\ \ Z\ \ \ \r\n\ ZZZZZ\r\n
+comment4.params=n
+comment4.target=void\ diagonal(int)
+comment4.text=\r\n\ a----\r\n\ -a---\r\n\ --a--\r\n\ ---a-\r\n\ ----a\r\n
+numComments=5

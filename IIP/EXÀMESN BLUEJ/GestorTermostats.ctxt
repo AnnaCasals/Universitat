@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GestorTermostats()
+comment1.params=nomZona
+comment1.target=int\ termostatEnZona(java.lang.String)
+comment2.params=t
+comment2.target=boolean\ instalar(Termostat)
+comment3.params=
+comment3.target=Termostat\ diferenciaMajor()
+comment4.params=
+comment4.target=Termostat[]\ termsNoEficients()
+numComments=5

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ListIntDoublyLinked()
+comment0.text=Crea\ una\ llista\ buida.
+comment1.params=x
+comment1.target=void\ inserir(int)
+comment1.text=\ Insereix\ un\ nou\ node\ amb\ l'element\ x\ en\ el\ cap\ de\ la\ llista,\r\n\ \ \u00E9s\ a\ dir,\ el\ nou\ node\ ser\u00E0\ el\ primer\ de\ la\ llista.\r\n\ \ @param\ x\ int\ a\ afegir\ en\ la\ llista.\r\n
+comment2.params=x
+comment2.target=void\ inserirFi(int)
+comment2.text=\ Insereix\ un\ nou\ node\ amb\ l'element\ x\ al\ final\ de\ la\ llista,\r\n\ \ \u00E9s\ a\ dir,\ el\ nou\ node\ ser\u00E0\ l'\u00FAltim\ de\ la\ llista.\r\n\ \ @param\ x\ int\ a\ afegir\ en\ la\ llista.\r\n
+comment3.params=x
+comment3.target=void\ esborrar(int)
+comment3.text=\ Esborra,\ si\ existeix,\ la\ primera\ ocurr\u00E8ncia\ d'una\r\n\ \ dada\ donada.\ Si\ no\ existeix,\ no\ fa\ res.\r\n\ \ @param\ x\ int\ a\ esborrar\ de\ la\ llista.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Obt\u00E9\ un\ String\ amb\ totes\ les\ dades\ de\ la\ llista\ en\r\n\ \ sentit\ ascendent\ (des\ del\ primer\ node\ fins\ l'\u00FAltim).\r\n\ \ Si\ la\ llista\ est\u00E0\ buida,\ torna\ la\ cadena\ buida.\r\n\ \ @return\ String,\ resultat.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toStringDescendent()
+comment5.text=\ Obt\u00E9\ un\ String\ amb\ totes\ les\ dades\ de\ la\ llista\ en\r\n\ \ sentit\ descendent\ (des\ de\ l'\u00FAltim\ node\ fins\ el\ primer).\r\n\ \ Si\ la\ llista\ est\u00E0\ buida,\ torna\ la\ cadena\ buida.\r\n\ \ @return\ String,\ resultat.\r\n
+numComments=6

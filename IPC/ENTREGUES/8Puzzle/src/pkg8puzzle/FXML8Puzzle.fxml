@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="90.0" minWidth="90.0" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg8puzzle.FXML8PuzzleController">
+   <children>
+      <GridPane fx:id="graella" gridLinesVisible="true" layoutX="14.0" layoutY="14.0" minHeight="90.0" minWidth="90.0" prefHeight="550.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="199.0" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="197.0" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Button fx:id="boto1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat1" onMouseEntered="#dins1" onMouseExited="#fora1" onMousePressed="#polsat1" onMouseReleased="#soltat1" prefHeight="200.0" prefWidth="200.0" text="1" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Consolas" size="36.0" />
+               </font></Button>
+            <Button fx:id="boto2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat2" onMouseEntered="#dins2" onMouseExited="#fora2" onMousePressed="#polsat2" onMouseReleased="#soltat2" prefHeight="200.0" prefWidth="200.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bristle Brush Script Demo" size="36.0" />
+               </font></Button>
+            <Button fx:id="boto3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat3" onMouseEntered="#dins3" onMouseExited="#fora3" onMousePressed="#polsat3" onMouseReleased="#soltat3" prefHeight="200.0" prefWidth="200.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bristle Brush Script Demo" size="36.0" />
+               </font></Button>
+            <Button fx:id="boto4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat4" onMouseEntered="#dins4" onMouseExited="#fora4" onMousePressed="#polsat4" onMouseReleased="#soltat4" prefHeight="200.0" prefWidth="200.0" text="4" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="36.0" />
+               </font></Button>
+            <Button fx:id="boto5" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat5" onMouseEntered="#dins5" onMouseExited="#fora5" onMousePressed="#polsat5" onMouseReleased="#soltat5" prefHeight="200.0" prefWidth="200.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bristle Brush Script Demo" size="36.0" />
+               </font></Button>
+            <Button fx:id="boto6" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat6" onMouseEntered="#dins6" onMouseExited="#fora6" onMousePressed="#polsat6" onMouseReleased="#soltat6" prefHeight="200.0" prefWidth="200.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bristle Brush Script Demo" size="36.0" />
+               </font></Button>
+            <Button fx:id="boto7" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat7" onMouseEntered="#dins7" onMouseExited="#fora7" onMousePressed="#polsat7" onMouseReleased="#soltat7" prefHeight="200.0" prefWidth="200.0" text="7" GridPane.columnIndex="0" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bristle Brush Script Demo" size="36.0" />
+               </font></Button>
+            <Button fx:id="boto8" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseDragged="#arrastrat8" onMouseEntered="#dins8" onMouseExited="#fora8" onMousePressed="#polsat8" onMouseReleased="#soltat8" prefHeight="200.0" prefWidth="200.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bristle Brush Script Demo" size="36.0" />
+               </font></Button>
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER" layoutY="300.0" prefHeight="100.0" prefWidth="600.0" spacing="150.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="començar" mnemonicParsing="false" onMouseClicked="#començar" prefHeight="71.0" prefWidth="73.0" text="Començar">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/D:/UNIVERSITAT/2N%20CURS/IPC/ENTREGUES/8Puzzle/src/S1.jpg" />
+                     </source>
+                  </ImageInput>
+               </effect></Button>
+            <Button fx:id="reset" cancelButton="true" mnemonicParsing="false" onMouseClicked="#reiniciar" prefHeight="73.0" prefWidth="74.0" text="Reiniciar">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/D:/UNIVERSITAT/2N%20CURS/IPC/ENTREGUES/8Puzzle/src/r.png" />
+                     </source>
+                  </ImageInput>
+               </effect></Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=nf\ n\ e
+comment0.target=Pacient(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Crea\ un\ {@code\ Pacient}\ amb\ NIF\ {@code\ nif},\ \r\n\ de\ nom\ {@code\ nom},\ de\ {@code\ edat}\ anys\ i\ \r\n\ {@code\ estat}\ es\ un\ valor\ aleatori\ en\ l'interval\ \r\n\ <code>[CRITIC,LLEU]</code>.\r\n\ @param\ nf\ {@code\ String},\ el\ NIF.\r\n\ @param\ n\ {@code\ String},\ el\ nom.\r\n\ @param\ e\ {@code\ int},\ l'edat.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getNif()
+comment1.text=\r\n\ Torna\ el\ NIF\ del\ pacient.\ \r\n\ @return\ {@code\ String},\ el\ NIF.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNom()
+comment2.text=\r\n\ Torna\ el\ nom\ del\ pacient.\r\n\ @return\ {@code\ String},\ el\ nom.\r\n
+comment3.params=
+comment3.target=int\ getEdat()
+comment3.text=\r\n\ Torna\ l'edat\ del\ pacient.\r\n\ @return\ {@code\ int},\ l'edat.\r\n
+comment4.params=
+comment4.target=int\ getEstat()
+comment4.text=\r\n\ Torna\ l'estat\ del\ pacient.\r\n\ @return\ {@code\ int},\ l'estat.\r\n
+comment5.params=
+comment5.target=void\ tractament()
+comment5.text=\r\n\ Millora\ l'estat\ del\ pacient,\ incrementant-lo\ en\ 1.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Torna\ un\ {@code\ String}\ amb\ la\ informacio\ del\ pacient\ \ \r\n\ en\ el\ seguent\ format\:\ \r\n\ <code>"nom\ nif\ edat\ est"</code>\ on\ est\ es\ \r\n\ <code>"CRITIC",\ "GREU",\ "MODERAT",\ "LLEU"\ o\ "SA"</code>\ \r\n\ en\ funcio\ de\ l'estat\ del\ pacient\ (per\ exemple,\r\n\ <code>"Pepe\ Perez\ Santarosa\ 74747474I\ \ 46\ LLEU"</code>).\r\n\ @return\ {@code\ String},\ el\ resultat.\r\n
+numComments=7

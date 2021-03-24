@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=c\ d\ cd
+comment0.target=Bloc(int,\ int,\ boolean)
+comment1.params=
+comment1.target=Bloc()
+comment2.params=
+comment2.target=int\ getDimensio()
+comment3.params=nova
+comment3.target=void\ setDimensio(int)
+comment4.params=o
+comment4.target=boolean\ equals(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=b
+comment6.target=boolean\ potEstarDamuntDe(Bloc)
+numComments=7

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=int\ max(int,\ int)
+comment0.text=\ Torna\ el\ major\ de\ dos\ enters\ x\ i\ y,\ o\ y\ si\ x\ \u00E9s\ igual\ a\ y.\r\n\ \ @param\ x\ int\ a\ comparar.\r\n\ \ @param\ y\ int\ a\ comparar.\r\n\ \ @return\ int,\ el\ major\ dels\ dos\ enters.\r\n
+comment1.params=x\ y
+comment1.target=double\ max(double,\ double)
+comment1.text=\ Torna\ el\ major\ de\ dos\ reals\ x\ i\ y,\ o\ y\ si\ x\ \u00E9s\ igual\ a\ y.\r\n\ \ @param\ x\ double\ a\ comparar.\r\n\ \ @param\ y\ double\ a\ comparar.\r\n\ \ @return\ double,\ el\ major\ dels\ dos\ reals.\ \ \r\n
+comment2.params=nota
+comment2.target=java.lang.String\ deNotaALletra(double)
+comment2.text=\ Donada\ la\ nota\ d'un\ alumne,\ torna\ la\ nota\ equivalent\r\n\ \ en\ lletra.\r\n\ \ @param\ nota\ double,\ la\ nota.\r\n\ \ @return\ String,\ la\ nota\ equivalent\ en\ lletra.\r\n
+comment3.params=numMes
+comment3.target=java.lang.String\ deNumMesAEstacio(int)
+comment3.text=\ Donat\ un\ n\u00FAmero\ de\ mes,\ torna\ l'estaci\u00F3\ a\ la\r\n\ \ qual\ pertany\ el\ mes.\r\n\ \ @param\ numMes\ int,\ el\ mes.\r\n\ \ @return\ String,\ l'estaci\u00F3.\r\n
+numComments=4

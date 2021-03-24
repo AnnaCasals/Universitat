@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=n\ t\ b\ d
+comment0.target=Astre(java.lang.String,\ int,\ double,\ double)
+comment1.params=
+comment1.target=Astre()
+comment2.params=
+comment2.target=double\ getBrillantor()
+comment3.params=nova
+comment3.target=void\ setBrillantor(double)
+comment4.params=o
+comment4.target=boolean\ equals(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=double\ magnitudAbsoluta()
+comment7.params=a
+comment7.target=int\ mesBrillant(Astre)
+comment8.params=
+comment8.target=java.lang.String\ visibleAmb()
+numComments=9

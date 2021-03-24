@@ -1,0 +1,25 @@
+#BlueJ package file
+objectbench.height=100
+objectbench.width=246
+package.editor.height=357
+package.editor.width=453
+package.editor.x=12
+package.editor.y=12
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=windows-1252
+target1.editor.height=700
+target1.editor.width=1318
+target1.editor.x=180
+target1.editor.y=298
+target1.height=50
+target1.name=Telescopi
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=80
+target1.y=10
